@@ -95,6 +95,8 @@ setopt printexitvalue
 setopt no_share_history
 
 # virtualenv
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.4
+export VIRTUALENVWRAPPER_PYTHON
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
